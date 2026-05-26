@@ -35,7 +35,7 @@ It retrieves the most relevant JCI standard chunks, re-ranks them for precision,
 | `MISTRAL_QWEN_policy_pipleline.ipynb` | LLM Pipeline — Combined | Dual re-ranker experiment comparing Mistral and Qwen generation |
 | `policy_compliance_pipeline_v2.ipynb` | Compliance Pipeline — v2 | Full pipeline: policy PDF + JCI DB + routed retrieval + Mistral compliance analysis |
 | `POLICY_PIPELINE_routed_retrieval.ipynb` | Compliance Pipeline — Routed | Removes policy DB; adds three-tier routed retrieval (exact code → chapter → global) |
-| `Policy_Compliance_Final_Pipeline.ipynb` | ✅ Final Pipeline | Production-ready: routed retrieval, expanded keyword parser, per-chapter JSON output |
+| `Policy_Compliance_Final_Pipeline.ipynb` | **Final Pipeline** | Production-ready: routed retrieval, expanded keyword parser, per-chapter JSON output |
 
 ---
 
