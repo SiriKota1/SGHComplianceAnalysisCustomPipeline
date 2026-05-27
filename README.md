@@ -160,7 +160,6 @@ Key packages:
 | `torch` | Required for Qwen re-ranker and LLM inference |
 | `pypdf` | PDF loading |
 | `pandas`, `openpyxl` | Evaluation output and CSV/Excel handling |
-| `tqdm`, `tenacity` | Progress bars and retry logic |
 | `tiktoken` | Token counting for OpenAI-compatible models |
 
 ### Configuration
