@@ -1,17 +1,11 @@
 #Requirements for all the codes
 langchain 
 langchain-community 
-langchain-openai 
 faiss-cpu 
-openai 
 pandas 
 sickit-learn
 openpyxl 
 pypdf 
-tqdm 
-tenacity 
-llama-index 
-llama-index-embeddings-openai
 tiktoken
 sentence-transformers
 torch
