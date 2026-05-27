@@ -106,7 +106,7 @@ Removes the policy PDF database. Introduces **three-tier routed retrieval**:
 
 The query parser is extended to extract multiple standard codes from a single query. Compliance generation now compares answers generated from top-3, top-5, and top-7 chunks, saving all three to `COMPLIANCE_ANALYSIS.csv`. A `@dataclass` (`ParsedQuery`) structures parser output.
 
-#### `Policy_Compliance_Final_Pipeline.ipynb` ✅
+#### `Policy_Compliance_Final_Pipeline.ipynb` 
 The production-ready notebook. Builds on routed retrieval with the following improvements:
 - **Expanded task keyword lists**: `compliance_check`, `comparison`, and `clarification` categories now cover a broader vocabulary (e.g. `satisfy`, `fully align`, `compared with`, `what elements`, `what documentation`)
 - **Chunk size increased** to `chunk_size=1500` to retain more context per standard
@@ -171,11 +171,8 @@ Before running any notebook, update the `JCI_PDF` path at the top of the config 
 JCI_PDF = '/path/to/your/ESS Standards_7th Ed .pdf'
 ```
 
-For compliance pipeline notebooks that also take a hospital policy PDF, set:
 
-```python
-POLICY_PDF = '/path/to/your/policy.pdf'
-```
+
 
 ### First Run
 
@@ -208,5 +205,4 @@ The pipeline supports all 16 JCI ESS chapters:
 
 ## Maintainer
 
-SGH Policy Review Internship Project  
-Repository: `sghpolicyreview`
+Siri Kota
