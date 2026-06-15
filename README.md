@@ -204,4 +204,6 @@ The pipeline supports all 16 JCI ESS chapters:
 
 ## Maintainer
 
-Siri Kota
+Siri 
+Joanne 
+Faeliq 
